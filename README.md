@@ -4,49 +4,6 @@
 [![GitHub issues](https://img.shields.io/github/issues/r0oth3x49/udemy-dl.svg?style=flat-square)](https://github.com/r0oth3x49/udemy-dl/issues)
 [![GitHub license](https://img.shields.io/github/license/r0oth3x49/udemy-dl.svg?style=flat-square)](https://github.com/r0oth3x49/udemy-dl/blob/master/LICENSE)
 
-# udemy-dl
-**A cross-platform python based utility to download courses from udemy for personal offline use.**
-
-[![udemy.png](https://s26.postimg.org/fo84ef1qx/udemy.png)](https://postimg.org/image/brusifgr9/)
-
-## ***Features***
-
-- Resume capability for a course video.
-- Supports organization and individual udemy users both.
-- Save course direct download links to a text file (option: `--save`).
-- Cache credentials to a file and use it later for login purpose (option: `--cache`).
-- List down course contents and video resolution, suggest the best resolution (option: `--info`).
-- Download/skip all available subtitles for a video (options: `--skip-sub, --skip-sub`).
-- Download spacific chapter in a course (option: `-c / --chapter`).
-- Download specific lecture in a chapter (option: `-l / --lecture`).
-- Download chapter(s) by providing range in a course (option: `--chapter-start, --chapter-end`).
-- Download lecture(s) by providing range in a chapter (option: `--lecture-start, --lecture-end`).
-- Download lecture(s) requested resolution (option: `-q / --quality`).
-- Download course to user requested path (option: `-o / --output`).
-
-
-## ***Requirements***
-
-- Python (2 or 3)
-- Python `pip`
-- Python module `requests`
-- Python module `colorama`
-- Python module `unidecode`
-- Python module `six`
-- Python module `requests[security]` or `pyOpenSSL`
-
-## ***Module Installation***
-
-	pip install -r requirements.txt
-	
-## ***Tested on***
-
-- Windows 7/8/8.1/10
-- Kali linux (2017.2)
-- Ubuntu-LTS (64-bit) (tested with super user)
-- Mac OSX 10.9.5 (tested with super user)
- 
-## ***Download udemy-dl***
 
 You can download the latest version of udemy-dl by cloning the GitHub repository.
 
